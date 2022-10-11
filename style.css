@@ -1,0 +1,29 @@
+.material-menu-wrapper{
+    position: absolute;
+    bottom: 0;right: 0;
+    height: 100vh;
+    width: 40vw;
+    overflow: hidden;
+}
+.material-menu{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+.material-btn{
+    position: absolute;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 2;
+    bottom: 20px;right: 20px;
+    width: 75px;height: 75px;
+    will-change: transform;
+    cursor: pointer;
+    
+}
